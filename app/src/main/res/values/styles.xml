@@ -1,0 +1,14 @@
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#2166E8</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+
+    <!-- Always white, whatever the system theme: scanners need maximum contrast. -->
+    <style name="ViewerTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+</resources>
